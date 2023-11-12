@@ -6,8 +6,8 @@ A tool that modifies the "cat" command in Linux to send its output to a remote s
 ## How to use
 1. Set up an Ubuntu server that you don't care about.
 2. Clone the repository.
-3. Mark the script as executable. `sudo chmod +x setup`
-4. Run the script. `./setup`
+3. Mark the script as executable. `sudo chmod +x compromise_cat`
+4. Run the compromiser script as root. `sudo ./compromise_cat`
 5. Install python, pip, and flask as needed. `pip install flask`
 6. Create the log file. `touch data.txt`
 7. In another console window, start the "remote" server (which I assume is actually running on localhost, this is just a demo). `python remote_server.py`
