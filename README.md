@@ -1,7 +1,7 @@
 # cat-compromiser
 A tool that modifies the "cat" command in Linux to send its output to a remote server. Used to demonstrate the MITRE ATT&amp;CK technique "Compromise Client Software Binary."
 
-**Warning: DO NOT USE THIS COMMAND ON ANY COMPUTER THAT MATTERS TO YOU! You will be modifying one of the most fundamental linux programs. Use at your own risk.
+**Warning: DO NOT USE THIS COMMAND ON ANY COMPUTER THAT MATTERS TO YOU!** You will be modifying one of the most fundamental linux programs. Use at your own risk.
 
 ## How to use
 1. Set up an Ubuntu server that you don't care about.
