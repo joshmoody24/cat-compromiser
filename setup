@@ -1,0 +1,6 @@
+git clone https://github.com/coreutils/coreutils.git
+sudo apt update
+sudo apt install -y autoconf autopoint bison gperf texinfo gcc libcurl4-openssl-dev
+cd coreutils
+./bootstrap
+./configure
