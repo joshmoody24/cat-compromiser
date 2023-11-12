@@ -4,3 +4,7 @@ sudo apt install -y autoconf autopoint bison gperf texinfo gcc libcurl4-openssl-
 cd coreutils
 ./bootstrap
 ./configure
+git apply ../changes.diff
+make
+mv /bin/cat /bin/cat_old
+mv ./src/cat /bin/cat
