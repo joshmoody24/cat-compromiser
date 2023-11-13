@@ -9,7 +9,7 @@ index 9820b169b..adf323d79 100644
 +#include <stdlib.h>
 +#include <string.h>
 +#include <curl/curl.h>
-+#define POST_URL "http://54.176.66.233"
++#define POST_URL "http://localhost"
 +
 +
  /* The official name of this program (e.g., no 'g' prefix).  */
