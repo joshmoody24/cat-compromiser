@@ -1,0 +1,3 @@
+
+mv /bin/cat /bin/cat_old
+mv ./src/cat /bin/cat
